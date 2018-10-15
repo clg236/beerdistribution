@@ -29,6 +29,8 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+//const random = Math.floor(Math.random() * 20)
+
 var groups = [];
 var users = {};
 var roles = [];
@@ -42,6 +44,8 @@ var backlog_cost = 1;
 var starting_inventory = 12;
 var starting_throughput = 4;
 var customer_demand = [4, 8, 12, 16, 20];
+
+
 
 // This controls how the roles are labeled
 var BEER_NAMES = ["Retailer", "Wholesaler", "Regional Warehouse", "Factory"];
