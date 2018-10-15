@@ -48,7 +48,7 @@ var customer_demand = [4, 8, 12, 16, 20];
 
 
 // This controls how the roles are labeled
-var BEER_NAMES = ["Retailer", "Wholesaler", "Distributor", "Factory"];
+var BEER_NAMES = ["Retailer", "Wholesaler", "Regional Warehouse", "Factory"];
 
 // This is what stores all the role data during the game
 var ROLE_0 = {
